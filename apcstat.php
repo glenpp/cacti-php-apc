@@ -30,7 +30,7 @@ $apcstat = apc_cache_info( '', True );
 print "$apcstat[num_hits]\n";
 print "$apcstat[num_misses]\n";
 print "$apcstat[num_inserts]\n";
-print "$apcstat[expunges]\n";
+print "$apcstat[num_expunges]\n";
 print "$apcstat[num_entries]\n";
 print "$apcstat[num_slots]\n";
 ?>
